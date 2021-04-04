@@ -10,7 +10,10 @@ Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 
 #### ANEXO 2: ESTRUCTURAS E INFORMACIÓN DE LOS LIBROS Y/O REGISTROS ELECTRÓNICOS
 
-* [Estructura del nombre del archivo](libro/libros_nombre.csv)
+
+* [Reglas generales de los comprobantes de pago](libros/reglas_comprobantes.csv)
+* [Reglas generales de los libros electrónicos](libros/README.md)
+* [Estructura del nombre del archivo](libros/libros_nombre.csv)
 * [Lista de Libros Electrónicos](libros/libros_lista.csv)
 
 ## Anexos
