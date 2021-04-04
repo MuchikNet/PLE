@@ -6,7 +6,16 @@ Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 
 ## Libros Electrónicos
 
+[Consultar más información](libros/README.md)
+
+#### ANEXO 2: ESTRUCTURAS E INFORMACIÓN DE LOS LIBROS Y/O REGISTROS ELECTRÓNICOS
+
+* [Estructura del nombre del archivo](libro/libros_nombre.csv)
+* [Lista de Libros Electrónicos](libros/libros_lista.csv)
+
 ## Anexos
+
+[Consultar más información](anexos/README.md)
 
 #### ANEXO 3: TABLAS
 
