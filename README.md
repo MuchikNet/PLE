@@ -2,11 +2,13 @@
 
 Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 
+||
+|--|
+|[Código Fuente en GitHub](https://github.com/MuchikNet/ple)|
+
 * [Plan Contable General Empresarial](plan_contable.csv)
 
-## Libros Electrónicos
-
-[Consultar más información](libros/README.md)
+## Libros Electrónicos [Ver más](libros/README.md)
 
 #### ANEXO 2: ESTRUCTURAS E INFORMACIÓN DE LOS LIBROS Y/O REGISTROS ELECTRÓNICOS
 
@@ -17,9 +19,7 @@ Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 * [Lista de Libros Electrónicos](libros/libros_lista.csv)
 * [Estructura de los libros](libros/README.md#estructura-de-los-libros)
 
-## Anexos
-
-[Consultar más información](anexos/README.md)
+## Anexos [Ver más](anexos/README.md)
 
 #### ANEXO 3: TABLAS
 
