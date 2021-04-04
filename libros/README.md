@@ -25,16 +25,16 @@ El Programa de Libros Electrónicos - PLE valida los libros y registros generado
 Donde:
 
 <pre>
-LO	Longitud	
-T	Tipo	
-  A: Alfanumérico (Solo letras y números)	
-  N: Numérico	
-L	Tipo de longitud	
-	F: Fija	
-	V: Variable	
-M	Módulo 11	
-	M: Aplica	
-	- : No aplica	
+LO Longitud	
+T	 Tipo	
+   A: Alfanumérico (Solo letras y números)	
+   N: Numérico	
+L  Tipo de longitud	
+   F: Fija	
+   V: Variable	
+M  Módulo 11	
+   M: Aplica	
+   - : No aplica	
 </pre>
 
 ## ANEXO 2: ESTRUCTURAS E INFORMACIÓN DE LOS LIBROS Y/O REGISTROS ELECTRÓNICOS
