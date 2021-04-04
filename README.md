@@ -15,6 +15,7 @@ Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 * [Reglas generales de los libros electrónicos](libros/README.md)
 * [Estructura del nombre del archivo](libros/libros_nombre.csv)
 * [Lista de Libros Electrónicos](libros/libros_lista.csv)
+* [Estructura de los libros](libros/README.md#estructura-de-los-libros)
 
 ## Anexos
 

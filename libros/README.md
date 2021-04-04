@@ -2,15 +2,15 @@
 
 ## REGLAS GENERALES DE LA INFORMACIÓN DE LOS LIBROS Y REGISTROS ELECTRÓNICOS		
 
-El Programa de Libros Electrónicos - PLE valida los libros y registros generados por el contribuyente en archivos en formato de texto, con la estructura que se indica en las siguientes hojas y cuyos campos deben estar separados por el caracter "|" (conocido como pipe o palote). Adicionalmente, dichos archivos deben ser generados con los nombres que se detallan en la hoja "Libros Tributarios".
+El Programa de Libros Electrónicos - PLE valida los libros y registros generados por el contribuyente en archivos en formato de texto, con la estructura que se indica en las siguientes hojas y cuyos campos deben estar separados por el caracter "\|" (conocido como pipe o palote). Adicionalmente, dichos archivos deben ser generados con los nombres que se detallan en la hoja "Libros Tributarios".
 
 | N°|Aspecto solicitado|Regla|
 |--|--|--|
 |1|Monto negativo|Consignar el formato  "- #.##"|
-|2|Texto|Texto libre entre palotes. No debe contener los caracteres: |,  /, \|
-|3|Alfanumerico|Letras en mayusculas y minusculas (de la A a la Z) y los caracteres especiales ( ) , . -|
+|2|Texto|Texto libre entre palotes. No debe contener los caracteres: \|,\  /, \\|
+|3|Alfanumerico|Letras en mayusculas y minusculas (de la A a la Z) y los caracteres especiales ( ) , . \-|
 |4|Fecha|Debe ser menor o igual al periodo informado|
-		
+
 ### Reglas de tipo y número de documento
 
 |Nro.|Descripcion|LO|T|L|M|
@@ -24,18 +24,17 @@ El Programa de Libros Electrónicos - PLE valida los libros y registros generado
 
 Donde:
 
-ˋˋˋ
-LO	Longitud	
-T	Tipo	
-	A: Alfanumérico (Solo letras y números)	
-	N: Numérico	
-L	Tipo de longitud	
-	F: Fija	
-	V: Variable	
-M	Módulo 11	
-	M: Aplica	
-	- : No aplica	
-ˋˋˋ
+  LO	Longitud	
+  T	Tipo	
+	  A: Alfanumérico (Solo letras y números)	
+	  N: Numérico	
+  L	Tipo de longitud	
+  	F: Fija	
+  	V: Variable	
+  M	Módulo 11	
+  	M: Aplica	
+  	- : No aplica	
+
 
 ## ANEXO 2: ESTRUCTURAS E INFORMACIÓN DE LOS LIBROS Y/O REGISTROS ELECTRÓNICOS
 
