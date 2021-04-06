@@ -26,4 +26,4 @@ campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
 25,"Hasta 12 enteros y hasta 8 decimales, sin comas de\nmiles",Si,No,Costo unitario del saldo final,Numérico,1. Obligatorio si campo 24 <> '0.00'\n2. Positivo o '0.00'
 26,"Hasta 12 enteros y hasta 2 decimales, sin comas de\nmiles",Si,No,Costo total del saldo final,Numérico,1. Obligatorio\n2. Producto del campo 23 y del campo 25\n3. Excepcionalmente puede ser negativo
 27,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo.\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo.\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo.
-28 al\n56,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."
+28 al 56,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."
