@@ -54,29 +54,47 @@ M  Módulo 11
 
 
 * [3.1 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE SITUACIÓN FINANCIERA](030100.csv)
+  * Resolución Gerencia General N° 044-2007-EF/94.11
 * [3.2 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 10 EFECTIVO Y EQUIVALENTES DE EFECTIVO](030200.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.3 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 12 CUENTAS POR COBRAR COMERCIALES – TERCEROS Y 13 CUENTAS POR COBRAR COMERCIALES – RELACIONADAS](030300.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.4 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO  DE LA CUENTA 14 CUENTAS POR COBRAR AL PERSONAL, A LOS ACCIONISTAS (SOCIOS), DIRECTORES Y GERENTES](030400.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.5 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO  DE LA CUENTA 16 CUENTAS POR COBRAR DIVERSAS - TERCEROS O CUENTA 17 - CUENTAS POR COBRAR DIVERSAS - RELACIONADAS](030500.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.6 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 19 ESTIMACIÓN DE CUENTAS DE COBRANZA DUDOSA](030600.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.7 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 20 - MERCADERIAS Y LA CUENTA 21 - PRODUCTOS TERMINADOS](030700.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.8 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 30 INVERSIONES MOBILIARIAS](030800.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.9 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 34 - INTANGIBLES](030900.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.11 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 41 REMUNERACIONES Y PARTICIPACIONES POR PAGAR](031100.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.12 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 42 CUENTAS POR PAGAR COMERCIALES – TERCEROS Y LA CUENTA 43 CUENTAS POR PAGAR COMERCIALES – RELACIONADAS](031200.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.13 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 46 CUENTAS POR PAGAR DIVERSAS – TERCEROS Y DE LA CUENTA 47 CUENTAS POR PAGAR DIVERSAS – RELACIONADAS](031300.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.14 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 47 - BENEFICIOS SOCIALES DE LOS TRABAJADORES (PCGR) - NO APLICABLE PARA EL PCGE](031400.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.15 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 37 ACTIVO DIFERIDO Y DE LA CUENTA 49 PASIVO DIFERIDO](031500.csv)
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * 3.16 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 50 CAPITAL
+  * Los deudores tributarios que lleven su contabilidad de acuerdo  a un plan contable distinto al Plan Contable General Empresarial (PCGE) deberán adecuar la información equivalente.
 * [3.16.1 - DETALLE DEL SALDO DE LA CUENTA 50 - CAPITAL](031601.csv)
 * [3.16.2 - ESTRUCTURA DE LA PARTICIPACIÓN ACCIONARIA O DE PARTICIPACIONES SOCIALES](031602.csv)
 * [3.17 - LIBRO DE INVENTARIOS Y BALANCES - BALANCE DE COMPROBACIÓN](031700.csv)
+  * Las cifras deben ser presentadas a valores históricos.
 * [3.18 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE FLUJOS DE EFECTIVO - MÉTODO DIRECTO](031800.csv)
 * [3.19 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE CAMBIOS EN EL PATRIMONIO NETO](031900.csv)
 * [3.20 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE RESULTADOS](032000.csv)
-* [3.23 - LIBRO DE INVENTARIOS Y BALANCES - NOTAS A LOS ESTADOS FINANCIEROS](032300.csv)
+* 3.23 - LIBRO DE INVENTARIOS Y BALANCES - NOTAS A LOS ESTADOS FINANCIEROS
+  * Este libro deberá registrarse en formato pdf. Su información y contenido debe estar de acuerdo a la normatividad señalada por la Superintendencia del Mercado de Valores - SMV (ex CONASEV)
 * [3.24 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE RESULTADOS INTEGRALES](032400.csv)
 * [3.25 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE FLUJOS DE EFECTIVO - MÉTODO INDIRECTO](32500.csv)
+
 
 
 * [4.1 - LIBRO DE RETENCIONES INCISO E) Y F) DEL ART. 34° DE LA LEY DEL IMPUESTO A LA RENTA](040100.csv)
@@ -88,7 +106,7 @@ M  Módulo 11
   * Obligatorio en el periodo de enero cada año o cuando se genera el libro electrónico por primera vez. En los demás meses se puede optar por generar un libro vacio salvo que el Plan Contable sufra modificaciones. 
 * [5.2 - LIBRO DIARIO DE FORMATO SIMPLIFICADO](050200.csv)
 * [5.4 - LIBRO DIARIO DE FORMATO SIMPLIFICADO - DETALLE DEL PLAN CONTABLE UTILIZADO](050400.csv)
-  * (*) Obligatorio en el periodo de enero cada año o cuando se genera el libro electrónico por primera vez. En los demás meses se puede optar por generar un libro vacio salvo que el Plan Contable sufra modificaciones.
+  * Obligatorio en el periodo de enero cada año o cuando se genera el libro electrónico por primera vez. En los demás meses se puede optar por generar un libro vacio salvo que el Plan Contable sufra modificaciones.
 
 
 * [6.1 - LIBRO MAYOR](060100.csv)

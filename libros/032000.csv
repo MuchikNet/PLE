@@ -1,0 +1,7 @@
+campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
+1,8,Si,Si,Periodo,Numérico,"1. Obligatorio\n2. Validar formato AAAAMMDD\n3. 01 <= MM <= 12\n4. Menor o igual al periodo informado\n5. Si el periodo es igual a periodo informado, campo 5 es igual a '1'. \n6. Si periodo es menor a periodo informado, entonces campo 5 es diferente a '1'"
+2,2,Si,Si,Código del catálogo,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 22
+3,Hasta 6,Si,Si,Código del Rubro del Estado Financiero ,Alfanumérico,1. Obligatorio\n2. Validar con parámetro tabla 34\n3. Si campo 2 = 09 se puede utilizar su propio código
+4,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Saldo del Rubro Contable,Numérico,1. Obligatorio
+5,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo.\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo.\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo.
+6 al 10,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."

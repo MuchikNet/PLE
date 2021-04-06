@@ -1,0 +1,15 @@
+campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
+1,8,Si,Si,Periodo,Numérico,"1. Obligatorio\n2. Validar formato AAAAMMDD \n3. 01 <= MM <= 12\n4. Menor o igual al periodo informado\n5. Si el periodo es igual a periodo informado, campo 12 es igual a '1'.\n6. Si periodo es menor a periodo informado, entonces campo 13 es diferente a '1'"
+2,1,Si,Si,Código del catálogo utilizado,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 13
+3,2,Si,Si,Tipo de existencia,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 5
+4,Hasta 24,Si,Si,Código propio de la existencia correspondiente al catálogo señalado en el campo 2.,Alfanumérico,1. Obligatorio\n2. Según catálogo utilizado (campo 2)
+5,1,No,No,Código del catálogo utilizado,Numérico,1. Optativo\n2. No acepta el valor 9\n3. Validar con parámetro tabla 13
+6,Hasta 128,No,No,Código de Existencia correspondiente al catálogo señalado en el campo 5.,Numérico,1.Código de Existencia al tercer nivel jerárquico del código Internacional UNSPSC. Podrá utilizarse el código GTIN en lugar del UNSPSC.\n2. Campo optativo.
+7,Hasta 80,Si,No,Descripción de la existencia,Texto,1. Obligatorio
+8,Hasta 3,Si,No,Código de la Unidad de medida de la existencia,Alfanumérico,1. Obligatorio\n2. Validar con parámetro tabla 6
+9,1,Si,No,Código del método de valuación utilizado,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 14
+10,"Hasta 12 enteros y hasta 8 decimales,\nsin comas de miles",Si,No,Cantidad de la existencia,Numérico,1. Obligatorio\n2. Positivo
+11,"Hasta 12 enteros y hasta 8 decimales, sin comas de\nmiles",Si,No,Costo unitario de la existencia,Numérico,1. Obligatorio\n2. Positivo o '0.00'\n3. Excepcionalmente permitirá negativo
+12,"Hasta 12 enteros y hasta 2 decimales,\nsin comas de miles",Si,No,Costo total,Numérico,"1. Obligatorio\n2. El dato de este campo es producto de multiplicar el dato del campo ""10"" por el dato del campo ""11"""
+13,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo.\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo.\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo.
+14 al 28,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."
