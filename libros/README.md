@@ -47,10 +47,11 @@ M  Módulo 11
   * (2) Podrán ser elaborados sin consignar información, siempre que cuente con la referida información con la estructura establecida en otro libro y/o registro llevado de manera electrónica y sea presentado cuando le sea requerido por la SUNAT
   * (3) Este libro deberá registrarse en formato pdf. Su información y contenido debe estar de acuerdo a la normatividad señalada por la Superintendencia del Mercado de Valores - SMV
 
-## Estructura de los libros
+## Estructura de los Libros Electrónicos
 
 * [1.1 - LIBRO CAJA Y BANCOS - DETALLE DE LOS MOVIMIENTOS DEL EFECTIVO](010100.csv)
 * [1.2 - LIBRO CAJA Y BANCOS - DETALLE DE LOS MOVIMIENTOS DE LA CUENTA CORRIENTE](010200.csv)
+
 
 * [3.1 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE SITUACIÓN FINANCIERA](030100.csv)
 * [3.2 - LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 10 EFECTIVO Y EQUIVALENTES DE EFECTIVO](030200.csv)
@@ -77,34 +78,47 @@ M  Módulo 11
 * [3.24 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE RESULTADOS INTEGRALES](032400.csv)
 * [3.25 - LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE FLUJOS DE EFECTIVO - MÉTODO INDIRECTO](32500.csv)
 
+
 * [4.1 - LIBRO DE RETENCIONES INCISO E) Y F) DEL ART. 34° DE LA LEY DEL IMPUESTO A LA RENTA](040100.csv)
 
+
 * [5.1 - LIBRO DIARIO](050100.csv)
+  * En caso el contribuyente se exima de llevar el Libro Caja y Bancos electrónico por llevar el presente libro, deberá completar la información en los campos de libre utilización (22 al 44), de corresponder.
 * [5.3 - LIBRO DIARIO - DETALLE DEL PLAN CONTABLE UTILIZADO](050300.csv)
+  * Obligatorio en el periodo de enero cada año o cuando se genera el libro electrónico por primera vez. En los demás meses se puede optar por generar un libro vacio salvo que el Plan Contable sufra modificaciones. 
 * [5.2 - LIBRO DIARIO DE FORMATO SIMPLIFICADO](050200.csv)
 * [5.4 - LIBRO DIARIO DE FORMATO SIMPLIFICADO - DETALLE DEL PLAN CONTABLE UTILIZADO](050400.csv)
+  * (*) Obligatorio en el periodo de enero cada año o cuando se genera el libro electrónico por primera vez. En los demás meses se puede optar por generar un libro vacio salvo que el Plan Contable sufra modificaciones.
+
 
 * [6.1 - LIBRO MAYOR](060100.csv)
+
 
 * [7.1 - REGISTRO DE ACTIVOS FIJOS - DETALLE DE LOS ACTIVOS FIJOS REVALUADOS Y NO REVALUADOS](070100.csv)
 * [7.3 - REGISTRO DE ACTIVOS FIJOS - DETALLE DE LA DIFERENCIA DE CAMBIO](070300.csv)
 * [7.4 - REGISTRO DE ACTIVOS FIJOS - DETALLE DE LOS ACTIVOS FIJOS BAJO LA MODALIDAD DE ARRENDAMIENTO FINANCIERO AL 31.12](070400.csv)
 
+
 * [8.1 - REGISTRO DE COMPRAS](080100.csv)
 * [8.2 - REGISTRO DE COMPRAS - INFORMACIÓN DE OPERACIONES CON SUJETOS NO DOMICILIADOS](080200.csv)
 * [8.3 - REGISTRO DE COMPRAS SIMPLIFICADO](080300.csv)
 
+
 * [9.1 - REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNADOR - CONTROL DE BIENES ENTREGADOS EN CONSIGNACIÓN](090100.csv)
 * [9.2 - REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNATARIO - CONTROL DE BIENES RECIBIDOS EN CONSIGNACIÓN](090200.csv)
+
 
 * [10.1 - REGISTRO DE COSTOS - ESTADO DE COSTO DE VENTAS ANUAL](100100.csv)
 * [10.2 - REGISTRO DE COSTOS - ELEMENTOS DEL COSTO MENSUAL](100200.csv)
 * [10.3 - REGISTRO DE COSTOS - ESTADO DE COSTO DE PRODUCCION VALORIZADO ANUAL](100300.csv)
 * [10.4 - REGISTRO DE COSTOS - CENTRO DE COSTOS](100400.csv)
 
+
 * [12.1 - REGISTRO DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS - DETALLE DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS](120100.csv)
 
+
 * [13.1 - REGISTRO DEL INVENTARIO PERMANENTE VALORIZADO - DETALLE DEL INVENTARIO VALORIZADO](130100.csv)
+
 
 * [14.1 - REGISTRO DE VENTAS E INGRESOS](140100.csv)
 * [14.2 - REGISTRO DE VENTAS E INGRESOS SIMPLIFICADO](140200.csv)
