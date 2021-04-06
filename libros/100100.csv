@@ -1,0 +1,8 @@
+campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
+1,8,Si,Si,Ejercicio,Numérico,"1. Obligatorio\n2. Validar formato AAAA0000\n3. AAAA >= 2010\n4. Se entiende que la información es a partir del 01 de enero del ejercicio o desde el inicio de actividades, cuando corresponda\n5. Si el ejercicio es igual al ejercicio informado, campo 6 es igual a '1' \n6. Si el ejercicio es menor al ejercicio informado, entonces campo 6 es diferente a '1'"
+2,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Costo del inventario inicial de productos terminados contable,Numérico,1. Obligatorio\n2. Positivo o '0.00'
+3,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Costo de producción de productos terminados contable,Numérico,1. Obligatorio\n2. Positivo o '0.00'
+4,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Costos del inventario final de productos terminados disponibles para la venta contable,Numérico,1. Obligatorio\n2. Negativo o '0.00'
+5,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Ajustes diversos contables,Numérico,1. Obligatorio
+6,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo (ejercicio).\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo (ejercicio).\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo (ejercicio).
+7 al 12,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."

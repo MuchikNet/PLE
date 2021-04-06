@@ -1,0 +1,23 @@
+campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
+1,8,Si,Si,Periodo,Numérico,"1. Obligatorio\n2. Validar formato AAAAMM00\n3. 01 <= MM <= 12\n4. Menor o igual al periodo informado\n5. Si el periodo es igual a periodo informado, campo 21 es igual a '1' \n6. Si periodo es menor a periodo informado, entonces campo 21 es diferente a '1'"
+2,1,Si,Si,Código del catálogo utilizado,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 13
+3,2,Si,Si,Tipo de existencia,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 5
+4,Hasta 24,Si,Si,Código de la existencia,Alfanumérico,1. Obligatorio\n2. Según catálogo utilizado (campo 2)
+5,Hasta 40,Si,Si,"1. Contribuyentes del Régimen General: Código Único de la Operación (CUO), que es la llave única o clave única o clave primaria del software contable que identifica de manera únivoca el asiento contable en el Libro Diario o en el Libro Diario de Formato Simplificado en que se registró la operación.\n2. Contribuyentes del Régimen Especial de Renta - RER:  Número correlativo del mes. ",Texto,1. Obligatorio
+6,Hasta 80,Si,No,Nombre de la existencia,Texto,"1. Obligatorio cuando campo 2 = '3' o '9', en caso contrario registrar '-'"
+7,Hasta 3,Si,No,Código de la unidad de medida,Alfanumérico,1. Obligatorio\n2. Validar con parámetro tabla 6
+8,10,Si,No,Fecha de emisión de la guía de remisión emitida por el consignador,DD/MM/AAAA,1. Obligatorio\n2. Menor o igual al periodo informado\n3. Menor o igual al periodo señalado en el campo 1.\n4. Si no existe registrar fecha default (01/01/0001)
+9,Hasta 20,Si,No,"Serie de la guía de remisión emitido por el consignador, con la que se reciben los bienes o se devuelven al consignador los bienes no vendidos",Numérico,1. Obligatorio\n2. Positivo\n3. Si no existe registrar '0'
+10,Hasta 20,Si,No,"Número de la guía de remisión emitido por el consignador, con la que se reciben los bienes o se devuelven al consignador los bienes no vendidos",Numérico,1. Obligatorio\n2. Positivo\n3. Si no existe registrar '0'
+11,2,Si,No,"Tipo de Comprobante de Pago o Documento emitido por el consignatario, por la venta de los bienes recibidos en consignación",Numérico,1. Obligatorio\n2. Validar con parámetro tabla 10\n3. Si no existe registrar '00'
+12,10,Si,No,"Fecha de emisión del comprobante emitido por el consignatario, por la venta de los bienes recibidos en consignación",DD/MM/AAAA,1. Obligatorio\n2. Menor o igual al periodo informado\n3. Menor o igual al periodo señalado en el campo 1.\n4. Si no existe registrar fecha default (01/01/0001)
+13,Hasta 20,Si,No,"Serie del Comprobante de Pago emitido por el consignatario, por la venta de los bienes recibidos en consignación (2)",Alfanumérico,"1. Obligatorio\n2. Positivo, de ser numérico\n3. Si no existe registrar '0'"
+14,Hasta 20,Si,No,"Número del Comprobante de Pago emitido por el consignatario, por la venta de los bienes recibidos en consignación (2)",Alfanumérico,"1. Obligatorio\n2. Positivo, de ser numérico\n3. Si no existe registrar '0'"
+15,10,Si,No,"Fecha de recepción, devolución o venta del bien",DD/MM/AAAA,1. Obligatorio\n2. Menor o igual al periodo informado\n3. Menor o igual al periodo señalado en el campo 1.
+16,11,Si,No,Número de RUC del consignador,Numérico,1. Obligatorio\n2. Aplicar Regla General (tipo y nro. doc. Para tipo = '06')
+17,Hasta 100,Si,No,"Apellidos y Nombres, Denominación o Razón Social del consignador",Texto,1. Obligatorio\n
+18,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Cantidad de bienes recibidos en consignación o por devolución del cliente (la primera tupla corresponde al saldo inicial),Numérico,1. Obligatorio\n2. Positivo o '0.00'\n3. Si no existe registrar '0'\n4. Es excluyente de los campos 19 y 20
+19,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Cantidad de bienes devueltos al consignador,Numérico,1. Obligatorio\n2. Negativo o '0.00'\n3. Si no existe registrar '0'\n4. Es excluyente de los campos 18 y 20
+20,"Hasta 12 enteros y hasta 2 decimales, sin comas de miles",Si,No,Cantidad de bienes vendidos por el consignatario,Numérico,1. Obligatorio\n2. Negativo o '0.00'\n3. Si no existe registrar '0'\n4. Es excluyente de los campos 18 y 19
+21,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo.\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo.\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo.
+22 al 42,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."

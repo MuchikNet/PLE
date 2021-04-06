@@ -130,6 +130,8 @@ M  Módulo 11
 
 * [9.1 - REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNADOR - CONTROL DE BIENES ENTREGADOS EN CONSIGNACIÓN](090100.csv)
 * [9.2 - REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNATARIO - CONTROL DE BIENES RECIBIDOS EN CONSIGNACIÓN](090200.csv)
+  * (1) Una vez perfeccionada la venta de bienes por parte del consignatario; en este caso, deberá anotarse en los campos 9 y 10 , la serie y el número de la guía de remisión con la que se emitieron los referidos bienes al consignatario
+  * (2) Deberá anotarse en los campos 9 y 10 la serie y el número de la guia de remisión con la que recibió los referidos bienes del consignador
 
 
 * [10.1 - REGISTRO DE COSTOS - ESTADO DE COSTO DE VENTAS ANUAL](100100.csv)
@@ -139,10 +141,17 @@ M  Módulo 11
 
 
 * [12.1 - REGISTRO DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS - DETALLE DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS](120100.csv)
+  * El Catálogo de Naciones Unidas es el mismo que se hace referencia en la Tabla 13 "Catálogo de Existencias".
 
 
 * [13.1 - REGISTRO DEL INVENTARIO PERMANENTE VALORIZADO - DETALLE DEL INVENTARIO VALORIZADO](130100.csv)
 
 
 * [14.1 - REGISTRO DE VENTAS E INGRESOS](140100.csv)
+  * (1) En los casos de comprobantes de pago emitidos por empresas de servicios públicos.						
+  * (2) También podrá efectuarse la anotación de manera consolidada cuando ésta corresponda a alguna de las situaciones previstas en el inciso e) del artículo 8 de la Resolución de Superintendencia N.° 286-2009/SUNAT respecto de operaciones registradas antes del 10/07/2011 por las que se emitieron comprobantes de pago que no otorgan derecho a crédito fiscal diferentes a los tickets o cintas emitidos por máquinas registradoras y siempre que por las mencionadas operaciones se lleve un sistema de control computarizado que mantenga la información detallada y que permita efectuar la verificación individual de cada documento. En el caso de las boletas de venta de acuerdo al numeral 3.10 del art. 8 del Reglamento de Comprobantes de Pago, a partir del 1 de julio de 2016, se deberá registrar de manera cuando el monto total sea igual o mayor a S/ 700.00.
+  * (3) Utilizado conforme a lo dispuesto en las normas sobre la materia.						
+  * (4) En caso de ser una operación gravada con el Impuesto selectivo al Consumo (ISC), no debe incluir el monto de dicho impuesto. 						
+  * (5) Utilizado conforme lo dispuesto en las normas sobre la materia.						
+  * (6) El monto ajustado de la base imponible y/o del impuesto o valor, según corresponda, señalado en las notas de crédito, se consignará respectivamente, en las columnas utilizadas para registrar los datos vinculados a  las adquisiciones  gravadas destinadas a  operaciones gravadas y/o  de  exportación; adquisiciones gravadas destinadas a  operaciones gravadas y/o  de exportación y a operaciones no gravadas y adquisiciones gravadas destinadas a operaciones no gravadas. El monto de la base imponible y/o impuesto o valor, según corresponda, señalados en las notas de débito, se consignarán respectivamente en las columnas indicadas en el párrafo anterior.
 * [14.2 - REGISTRO DE VENTAS E INGRESOS SIMPLIFICADO](140200.csv)
