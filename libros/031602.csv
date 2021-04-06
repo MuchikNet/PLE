@@ -1,9 +1,7 @@
 campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
 1,8,Si,Si,Periodo,Numérico,"1. Obligatorio\n2. Validar formato AAAAMMDD\n3. 01 <= MM <= 12\n4. Menor o igual al periodo informado\n5. Si el periodo es igual a periodo informado, campo 8 es igual a '1'. \n6. Si periodo es menor a periodo informado, entonces campo 8 es diferente a '1'"
 2,1,Si,Si,Tipo de Documento de Identidad del accionista o socio,Alfanumérico,1. Obligatorio\n2. Validar con parámetro tabla 2
-,,,,,,
 3,Hasta 15,Si,Si,Número de Documento de Identidad del accionista o socio,Alfanumérico,1. Obligatorio\n2. Aplicar Regla General (tipo y nro. doc.)
-,,,,,,
 4,2,Si,No,Código de los tipos de acciones o participaciones,Numérico,1. Obligatorio\n2. Validar con parámetro tabla 16
 5,Hasta 100,Si,No,"Apellidos y Nombres, Denominación o Razón Social del accionista o socio, según corresponda",Texto,1. Obligatorio\n
 6,Hasta 12,Si,No,Número de acciones o de participaciones sociales,Numérico,1. Obligatorio\n2. Positivo

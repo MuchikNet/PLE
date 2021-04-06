@@ -119,6 +119,11 @@ M  Módulo 11
 
 
 * [8.1 - REGISTRO DE COMPRAS](080100.csv)
+  * (1) Señalar la fecha correspondiente, de acuerdo a lo establecido en el literal b) del inciso II del numeral 1 del Artículo 10° del Reglamento de la Ley del Impuesto General a las Ventas e Impuesto Selectivo al Consumo, aprobado por Decreto Supremo N.° 029-94-EF, publicado el 29.3.1994 y normas modificatorias.
+  * (2) En caso la anotación corresponda a un ajuste respecto de operaciones registradas antes del 10/07/2011 y siempre que por las mencionadas operaciones se lleve un sistema de control computarizado que mantenga la información detallada y que permita efectuar la verificación individual de cada documento.
+  * (3) Utilizado conforme lo dispuesto en las normas sobre la materia.
+  * (4) El  monto ajustado de la base imponible y/o del impuesto o valor, según corresponda, señalado en las notas de crédito, se consignará en las columnas utilizadas para registrar los datos vinculados a las adquisiciones gravadas destinadas a operaciones gravadas y/o de exportación; adquisiciones gravadas destinadas a operaciones gravadas y/o de exportación y a operaciones no gravadas y adquisiciones gravadas destinadas a operaciones no gravadas. El monto de la base imponible y/o impuesto o valor, según corresponda, señalados en las notas de débito, se consignará en las columnas indicadas en el párrafo anterior.
+  * (5) Sólo para los casos de detracciones. Es optativo el llenado cuando exista un sistema de enlace que mantenga dicha información y se pueda identificar los comprobantes de pago respecto de los cuales se efectuó el depósito.
 * [8.2 - REGISTRO DE COMPRAS - INFORMACIÓN DE OPERACIONES CON SUJETOS NO DOMICILIADOS](080200.csv)
 * [8.3 - REGISTRO DE COMPRAS SIMPLIFICADO](080300.csv)
 

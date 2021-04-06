@@ -36,4 +36,4 @@ campo,longitud,obligatorio,llave_unica,descripcion,formato,observaciones
 35,"Hasta 12 enteros y hasta 2 decimales, sin comas de\nmiles",Si,No,Valor de la depreciación de otras revaluaciones efectuadas,Numérico,"1. Obligatorio\n2. Positivo o negativo\n3. Si no existe, registrar '0.00'"
 36,"Hasta 12 enteros y hasta 2 decimales, sin comas de\nmiles",Si,No,Valor del ajuste por inflación de la depreciación,Numérico,"1. Obligatorio\n2. Positivo o negativo\n3. Si no existe, registrar '0.00'"
 37,1,Si,No,Indica el estado de la operación,Numérico,1. Obligatorio\n2. Registrar '1' cuando la operación corresponde al periodo.\n3. Registrar '8' cuando la operación corresponde a un periodo anterior y NO ha sido anotada en dicho periodo.\n4. Registrar '9' cuando la operación corresponde a un periodo anterior y SI ha sido anotada en dicho periodo.
-38 al\n76,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."
+38 al 76,Hasta 200,No,No,Campos de libre utilización.,Texto,"1. En caso de no tener la necesidad de utilizarlos, no incluya  ni la información ni los palotes."
