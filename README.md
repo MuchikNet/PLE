@@ -4,6 +4,7 @@ Documentación de referencia para Programa de Libros Electrónicos de SUNAT.
 
 * [Código Fuente en GitHub](https://github.com/MuchikNet/ple)
 * [Plan Contable General Empresarial](plan_contable.csv)
+* [Libros y registros contables obligatorios, según su régimen SUNAT](https://emprender.sunat.gob.pe/tributando/registros-contables/libros-registros-contables)
 
 ## [Libros Electrónicos](libros/README.md)
 
